@@ -1,25 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 
-public class elevator : MonoBehaviour
+public class Elevator : MonoBehaviour
 {
-    [SerializeField] private float velocidad = 1f;
-    [SerializeField] private float amplitud = 15f;
-    private Vector3 initPosition;
-    void Start()
+    public Rigidbody rb;
+    public Transform targetPosition; // posición final arriba
+    public float speed = 2f;
+
+    private bool activated = false;
+    private bool reachedTarget = false;
+
+    private void Start()
     {
-        initPosition = transform.position;
+        rb = GetComponent<Rigidbody>();
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void FixedUpdate()
     {
-        //onCollisionEnter para activar el elevador, luego pasar la función al update
-        if (collision.gameObject.CompareTag("Player"))
+        if (activated && !reachedTarget)
         {
-            float desplazamientoY = Mathf.Sin(Time.time * velocidad) * amplitud;
-            transform.position = new Vector3(initPosition.x, initPosition.y + desplazamientoY, initPosition.z);
+            Vector3 newPosition = Vector3.MoveTowards(rb.position, targetPosition.position, speed * Time.fixedDeltaTime);
+            rb.MovePosition(newPosition);
+
+            if (Vector3.Distance(rb.position, targetPosition.position) < 0.01f)
+            {
+                reachedTarget = true;
+            }
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            activated = true;
         }
     }
 }
+

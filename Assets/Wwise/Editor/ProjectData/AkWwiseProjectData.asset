@@ -80,8 +80,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: d3be196c75367f489776b53e310dfa47
     GuidInternal: 
-    m_lastTime: -8584561801611779644
-    List: []
+    m_lastTime: -8584558974786713430
+    List:
+    - name: BMGPlay
+      guid: 56475f79a858e14386b4f2782d4e06c7
+      id: 1315137643
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d3be196c75367f489776b53e310dfa47
+      - ElementName: BMGPlay
+        ObjectType: 3
+        guid: 56475f79a858e14386b4f2782d4e06c7
+      Path: Events\Default Work Unit\BMGPlay
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +156,7 @@ MonoBehaviour:
     m_lastTime: -8584561801610373756
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 06000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
