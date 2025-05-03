@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1315137643	BMGPlay			\Default Work Unit\BMGPlay	
+	1718617278	Steps			\Default Work Unit\Steps	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	196453940	007_UI_Footsteps_wood-007	C:\Users\Daniel\Eartes Proyecto Modulo\Eartes Proyecto Modulo_WwiseProject\.cache\Mac\SFX\007_UI_Footsteps_wood-007_E8BB2531.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\007_UI_Footsteps_wood-007		24488
+	409107244	007_UI_Footsteps_wood-001	C:\Users\Daniel\Eartes Proyecto Modulo\Eartes Proyecto Modulo_WwiseProject\.cache\Mac\SFX\007_UI_Footsteps_wood-001_DBB95F01.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\007_UI_Footsteps_wood-001		32316
+	457688097	007_UI_Footsteps_wood-005	C:\Users\Daniel\Eartes Proyecto Modulo\Eartes Proyecto Modulo_WwiseProject\.cache\Mac\SFX\007_UI_Footsteps_wood-005_8B7BA047.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\007_UI_Footsteps_wood-005		24036
+	485164082	layer 3	C:\Users\Daniel\Eartes Proyecto Modulo\Eartes Proyecto Modulo_WwiseProject\.cache\Mac\SFX\danielReyes_Pract2_Asig4_Layer1_8c_bpm85_5x8_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BGMusic\BGMusic Layered LV1\layer 3		2490448
+	616278802	007_UI_Footsteps_wood-006	C:\Users\Daniel\Eartes Proyecto Modulo\Eartes Proyecto Modulo_WwiseProject\.cache\Mac\SFX\007_UI_Footsteps_wood-006_8C7E22EF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\007_UI_Footsteps_wood-006		24412
+	734563013	007_UI_Footsteps_wood-008	C:\Users\Daniel\Eartes Proyecto Modulo\Eartes Proyecto Modulo_WwiseProject\.cache\Mac\SFX\007_UI_Footsteps_wood-008_EF14D295.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\007_UI_Footsteps_wood-008		20624
+	859259140	layer 1	C:\Users\Daniel\Eartes Proyecto Modulo\Eartes Proyecto Modulo_WwiseProject\.cache\Mac\SFX\danielReyes_Pract2_Asig4_Layer2_8c_bpm85_5x8_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BGMusic\BGMusic Layered LV1\layer 1		2490448
+	1015530771	layer 2	C:\Users\Daniel\Eartes Proyecto Modulo\Eartes Proyecto Modulo_WwiseProject\.cache\Mac\SFX\danielReyes_Pract2_Asig4_Layer3_8c_bpm85_5x8_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BGMusic\BGMusic Layered LV1\layer 2		2490448
+

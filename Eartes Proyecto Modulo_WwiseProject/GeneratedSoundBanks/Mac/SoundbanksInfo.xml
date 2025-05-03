@@ -22,6 +22,62 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{1E21162E-479D-743C-DCDF-0EB79391C8E7}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="196453940" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>007_UI_Footsteps_wood-007.wav</ShortName>
+					<CachePath>SFX/007_UI_Footsteps_wood-007_E8BB2531.wem</CachePath>
+				</File>
+				<File Id="409107244" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>007_UI_Footsteps_wood-001.wav</ShortName>
+					<CachePath>SFX/007_UI_Footsteps_wood-001_DBB95F01.wem</CachePath>
+				</File>
+				<File Id="457688097" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>007_UI_Footsteps_wood-005.wav</ShortName>
+					<CachePath>SFX/007_UI_Footsteps_wood-005_8B7BA047.wem</CachePath>
+				</File>
+				<File Id="485164082" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>danielReyes_Pract2_Asig4_Layer1_8c_bpm85_5x8.wav</ShortName>
+					<CachePath>SFX/danielReyes_Pract2_Asig4_Layer1_8c_bpm85_5x8_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="616278802" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>007_UI_Footsteps_wood-006.wav</ShortName>
+					<CachePath>SFX/007_UI_Footsteps_wood-006_8C7E22EF.wem</CachePath>
+				</File>
+				<File Id="734563013" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>007_UI_Footsteps_wood-008.wav</ShortName>
+					<CachePath>SFX/007_UI_Footsteps_wood-008_EF14D295.wem</CachePath>
+				</File>
+				<File Id="859259140" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>danielReyes_Pract2_Asig4_Layer2_8c_bpm85_5x8.wav</ShortName>
+					<CachePath>SFX/danielReyes_Pract2_Asig4_Layer2_8c_bpm85_5x8_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1015530771" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>danielReyes_Pract2_Asig4_Layer3_8c_bpm85_5x8.wav</ShortName>
+					<CachePath>SFX/danielReyes_Pract2_Asig4_Layer3_8c_bpm85_5x8_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1315137643" Name="BMGPlay" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="485164082"/>
+						<MediaRef Id="859259140"/>
+						<MediaRef Id="1015530771"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1718617278" Name="Steps" DurationType="OneShot" DurationMin="0.11863966" DurationMax="0.22143325">
+					<MediaRefs>
+						<MediaRef Id="196453940"/>
+						<MediaRef Id="409107244"/>
+						<MediaRef Id="457688097"/>
+						<MediaRef Id="616278802"/>
+						<MediaRef Id="734563013"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{85FB997E-979E-429B-B6F1-CF88BB808457}</FileHash>
+	<FileHash>{20AA6B7A-7EDB-229B-262E-1DBA7CAC282C}</FileHash>
 </SoundBanksInfo>
